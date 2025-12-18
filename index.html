@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MAVISE Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>MAVISE – Audio Visual Speech Enhancement</h1>
+
+    <div class="container">
+
+        <label>Upload Audio (.wav)</label>
+        <input type="file" id="audioUpload" accept=".wav">
+        <p id="audioStatus">No audio uploaded</p>
+
+        <label>Upload Video (.mp4)</label>
+        <input type="file" id="videoUpload" accept=".mp4">
+        <p id="videoStatus">No video uploaded</p>
+
+        <button id="runBtn">Run Enhancement</button>
+
+        <h3 id="finalStatus">Idle</h3>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
